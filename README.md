@@ -8,6 +8,13 @@ Here are some useful links to get you started:
 - [Ktor GitHub page](https://github.com/ktorio/ktor)
 - The [Ktor Slack chat](https://app.slack.com/client/T09229ZC6/C0A974TJ9). You'll need to [request an invite](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up) to join.
 
+## How to build and run
+(!) Check that the gradlew file has the LF line break character, otherwise it won't work
+```
+docker compose build
+docker compose up -d
+```
+
 ## Features
 
 Here's a list of features included in this project:
